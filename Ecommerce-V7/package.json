@@ -5,11 +5,12 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./app.js"
+    "start": "nodemon app.js"
   },
   "author": "samarth vohra",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.5",
     "connect-flash": "^0.1.1",
     "ejs": "^3.1.8",
     "ejs-mate": "^4.0.0",

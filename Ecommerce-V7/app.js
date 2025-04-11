@@ -64,7 +64,11 @@ app.use((req,res,next)=>{
 
 app.get('/',(req,res)=>{
     res.render('home')
-})
+}) //bhai home ejs to render h // wahi n
+
+
+console.log("fuck js");
+
 
 // Routes
 app.use(productRoutes);
